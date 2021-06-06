@@ -1,0 +1,55 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "es2020",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "paths": {
+      "@act/scss":[
+        "libs/theme/scss"
+      ],
+      "@act/components": [
+        "libs/act-components/src/public-api.ts",
+      ],
+      
+      "@act/material": [
+        "libs/material/src/public-api.ts",
+      ],
+      "@act/act-pages": [
+        "libs/act-pages/src/public-api.ts"
+      ],
+      "@act/theme": [
+        "libs/theme/src/public-api.ts"
+      ],
+      "@act/interfaces": [
+        "libs/interfaces/src/public-api.ts"
+      ],
+      
+      "@act/services": [
+        "libs/services/src/public-api.ts"
+      ],
+
+      "@act/utils": [
+        "libs/utils/src/public-api.ts"
+      ],
+    }
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false
+  }
+}

@@ -1,8 +1,7 @@
 ## Multi project starter
-- This is a project starter, can be used for any new project with multi support, just rename  `projects/act` to your project name, that includes in `angular.json` file also
-- This setup has libs and project seperation so you can borrow lib assets to any new project you create
+- This is an angular project starter, can be used for any new project with multi support, just rename  `projects/act` to your project name, including `angular.json` 
+- This setup has ./libs and ./projects seperation so you can borrow libs assets to any new project you create
 - angular/material and lazy page routing is already setup
-
 
 
 ### Notes
